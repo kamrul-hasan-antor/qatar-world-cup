@@ -273,6 +273,10 @@ Mobile Devise Resposive
   .footer_list p {
     margin: 10px 0;
   }
+  /* Matches */
+  .card_image img {
+    height: 80px;
+  }
 }
 
 /* --------------------
