@@ -19,7 +19,7 @@ button {
 Banner Section Styles 
 ----------------*/
 .banner {
-  background: #161616;
+  background: #202020;
   border-radius: 20px;
   color: #ffffff;
   display: flex;
@@ -27,13 +27,14 @@ Banner Section Styles
   align-items: center;
 }
 .banner div {
-  width: 45%;
+  width: 46%;
 }
 .banner_title {
   font-weight: 700;
   font-size: 3.5em;
   align-items: flex-end;
 }
+
 .btn {
   display: inline-block;
   padding: 17px 25px;
@@ -44,16 +45,24 @@ Banner Section Styles
   border-radius: 5px;
 }
 .btn i {
-  padding-left: 10px;
+  padding-left: 5px;
 }
 .banner_image {
   height: 100%;
   display: flex;
   align-items: flex-end;
+  justify-content: center;
 }
 .banner_image img {
-  width: 100%;
+  width: 90%;
   padding-top: 20px;
+  transition: transform 1s;
+}
+.banner_image {
+  overflow: hidden;
+}
+.banner_image:hover img {
+  transform: scale(1.1);
 }
 
 /* ------------------------
@@ -65,8 +74,8 @@ Main Content Section Styles
   justify-content: space-between;
 }
 .main_content_btn {
-  width: 270px;
-  background: #161616;
+  width: 250px;
+  background: #202020;
   border-radius: 10px;
   text-align: center;
   height: 270px;
@@ -80,7 +89,7 @@ Main Content Section Styles
   width: 200px;
   padding: 20px 0;
   font-size: 1rem;
-  color: #161616;
+  color: #202020;
   border: none;
   border-radius: 12px;
   margin: 10px 0;
@@ -96,7 +105,7 @@ Main Content Section Styles
   border: none;
 }
 .main_contnet_cards {
-  width: calc(100% - 295px);
+  width: calc(100% - 280px);
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
@@ -116,12 +125,12 @@ Main Content Section Styles
   width: 100px;
   height: 32px;
   background-color: #ffffff;
-  border: 1px solid #161616;
+  border: 1px solid #202020;
   border-radius: 5px;
 }
 .card_content h4 {
   margin: 10px 0;
-  color: #161616;
+  color: #202020;
 }
 .card_content span {
   margin-right: 30px;
@@ -138,7 +147,7 @@ Main Content Section Styles
 Footer Section Styles 
 -------------------- */
 .footer {
-  background-color: #161616;
+  background-color: #202020;
   padding: 100px;
 }
 .footer_title {
@@ -159,6 +168,16 @@ hr {
   margin: 0 25px;
   color: #b9b9b9;
   font-weight: 500;
+}
+.social_links {
+  text-align: center;
+}
+.social_links a {
+  display: inline-block;
+  color: white;
+  font-size: 1.8em;
+  text-decoration: none;
+  padding: 20px;
 }
 
 /* --------------------------------
@@ -181,7 +200,7 @@ hr {
   /* margin: 10px 0; */
   padding-bottom: 15px;
   text-align: center;
-  color: #161616;
+  color: #202020;
 }
 .match_details span {
   font-size: 0.9em;
