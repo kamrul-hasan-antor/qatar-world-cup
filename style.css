@@ -104,6 +104,7 @@ Main Content Section Styles
 .cards {
   border: 1px solid #e8e8e8;
   border-radius: 10px;
+  box-shadow: 1px 1px 1px #e8e8e8;
 }
 .cards img {
   width: 100%;
@@ -133,6 +134,9 @@ Main Content Section Styles
   display: none;
 }
 
+/* ------------------
+Footer Section Styles 
+-------------------- */
 .footer {
   background-color: #161616;
   padding: 100px;
@@ -154,6 +158,36 @@ hr {
 .footer_list p {
   margin: 0 25px;
   color: #b9b9b9;
+  font-weight: 500;
+}
+
+/* --------------------------------
+      Matches Page Styles 
+-------------------- -------------*/
+
+.card_image {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-weight: 600;
+  padding: 18px 0;
+}
+.card_image img {
+  width: 100px;
+  height: 60px;
+  box-shadow: 1px 1px 5px #b9b9b9;
+}
+.match_details {
+  /* margin: 10px 0; */
+  padding-bottom: 15px;
+  text-align: center;
+  color: #161616;
+}
+.match_details span {
+  font-size: 0.9em;
+  color: #4d4d4d;
+}
+.match_details p {
   font-weight: 500;
 }
 /* --------------------
@@ -201,6 +235,14 @@ Mobile Devise Resposive
   .footer_list p {
     margin: 10px 0;
   }
+
+  /* --------------------------------
+      Matches Page Styles 
+-------------------- -------------*/
+  .card_image img {
+    width: 160px;
+    height: 80px;
+  }
 }
 
 /* --------------------
@@ -247,9 +289,7 @@ Tablet Devise Resposive
     width: 100%;
     grid-template-columns: repeat(2, 1fr);
   }
-  .cards:nth-last-child(1),
-  .cards:nth-last-child(2),
-  .cards:nth-last-child(3) {
+  .tablet_none {
     display: none;
   }
   .view_btn {
