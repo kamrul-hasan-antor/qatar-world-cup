@@ -292,7 +292,7 @@ Tablet Devise Resposive
     padding-top: 40px;
   }
   .banner p {
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
   .banner_title {
     font-size: 1.5em;
@@ -340,7 +340,6 @@ Tablet Devise Resposive
   }
 
   /* Matches */
-
   .card_image img {
     height: 80px;
   }
